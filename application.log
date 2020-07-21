@@ -1,0 +1,310 @@
+2020-07-21 14:47:29,356  INFO [TestNG] TestListener:31 - *** Test Suite RegressionTests started ***
+2020-07-21 14:47:29,356  INFO [TestNG] TestListener:31 - *** Test Suite SmokeTests started ***
+2020-07-21 14:48:21,063  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:48:21,063  INFO [TestNG] EventHandler:163 - From Thread 11: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:48:24,347  INFO [TestNG] EventHandler:85 - From Thread 11: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:48:24,367  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:48:24,913  INFO [TestNG] TestListener:41 - From Thread 12: *** Running test method assertLoginPageTitle...
+2020-07-21 14:48:24,920  INFO [TestNG] TestListener:41 - From Thread 11: *** Running test method assertLoginPageTitle...
+2020-07-21 14:48:26,671  INFO [TestNG] TestListener:46 - From Thread 11: *** Executed assertLoginPageTitle test successfully...
+2020-07-21 14:48:26,688  INFO [TestNG] TestListener:46 - From Thread 12: *** Executed assertLoginPageTitle test successfully...
+2020-07-21 14:48:58,782  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:48:58,929  INFO [TestNG] EventHandler:163 - From Thread 11: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:49:06,666  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:49:06,671  INFO [TestNG] TestListener:41 - From Thread 12: *** Running test method login...
+2020-07-21 14:49:07,186  INFO [TestNG] EventHandler:85 - From Thread 11: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:49:07,190  INFO [TestNG] TestListener:41 - From Thread 11: *** Running test method login...
+2020-07-21 14:49:07,557  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-21 14:49:07,557  INFO [TestNG] EventHandler:127 - From Thread 11: Trying to find the element using By.linkText: Sign in
+2020-07-21 14:49:07,964  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-21 14:49:08,019  INFO [TestNG] EventHandler:48 - From Thread 11: Found the element using By.linkText: Sign in
+2020-07-21 14:49:09,491  INFO [TestNG] EventHandler:127 - From Thread 11: Trying to find the element using By.id: userid
+2020-07-21 14:49:09,548  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-21 14:49:19,563  INFO [TestNG] EventHandler:183 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 3288, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 19d44fcb-647d-4b06-8a06-7b1...}
+Session ID: 19d44fcb-647d-4b06-8a06-7b1d5ecf05ab
+*** Element info: {Using=id, value=userid}
+2020-07-21 14:49:19,563  INFO [TestNG] EventHandler:183 - From Thread 11: Exception: Cause- null, Message- Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 1328, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: de5f8666-8938-4a2c-a2b2-136...}
+Session ID: de5f8666-8938-4a2c-a2b2-136b04883ebd
+*** Element info: {Using=id, value=userid}
+2020-07-21 14:49:19,607  INFO [TestNG] TestListener:65 - From Thread 12: *** Test execution login failed...
+2020-07-21 14:49:19,607  INFO [TestNG] TestListener:79 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-21 14:49:19,607  INFO [TestNG] TestListener:65 - From Thread 11: *** Test execution login failed...
+2020-07-21 14:49:19,607  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-21 14:49:19,607  INFO [TestNG] TestListener:79 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-21 14:49:19,622  INFO [TestNG] EventHandler:133 - From Thread 11: Trying to take screenshot. 
+2020-07-21 14:49:21,539  INFO [TestNG] EventHandler:55 - From Thread 11: Screenshot taken
+2020-07-21 14:49:21,539  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-21 14:49:21,554  INFO [TestNG] TestListener:97 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot135062937996183734.png
+2020-07-21 14:49:21,554  INFO [TestNG] TestListener:98 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\login2020-07-21T14_49_19_607.png
+2020-07-21 14:49:21,539  INFO [TestNG] TestListener:97 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot6594038589475665783.png
+2020-07-21 14:49:21,555  INFO [TestNG] TestListener:98 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\login2020-07-21T14_49_19_607.png
+2020-07-21 14:49:39,216  INFO [TestNG] TestListener:35 - *** Test Suite SmokeTests ending ***
+2020-07-21 14:49:39,382 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:39,382 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-21 14:49:39,382 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-21 14:49:39,382 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-21 14:49:40,647 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,652 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-21 14:49:40,653 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-21 14:49:40,685 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,685 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-21 14:49:40,685 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-21 14:49:40,685 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-21 14:49:40,763 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,763 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-21 14:49:40,763 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-21 14:49:40,763 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-21 14:49:40,825 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,825 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-21 14:49:40,825 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-21 14:49:40,825 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-21 14:49:40,856 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:40,856 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:40,872 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:40,872 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,872 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-21 14:49:40,872 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-21 14:49:40,872 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-21 14:49:40,950 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-21 14:49:40,966 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:40,981 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-21 14:49:40,981 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-21 14:49:40,981 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-21 14:49:41,013 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,013 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-21 14:49:41,013 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-21 14:49:41,013 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-07-21 14:49:41,060 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,060 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-21 14:49:41,060 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-21 14:49:41,060 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-21 14:49:41,075 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,075 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-21 14:49:41,075 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-21 14:49:41,091 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,106 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-21 14:49:41,122 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-21 14:49:41,138 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,153 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-21 14:49:41,153 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-21 14:49:41,153 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-21 14:49:41,169 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:41,185 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:41,185 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:49:41,200 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,200 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-21 14:49:41,200 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-21 14:49:41,200 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-21 14:49:41,200 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-21 14:49:41,216 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-21 14:49:41,231 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-07-21 14:49:51,079  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:49:55,622  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:49:55,627  INFO [TestNG] TestListener:41 - From Thread 12: *** Running test method searchForProduct...
+2020-07-21 14:49:55,665  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
+2020-07-21 14:49:55,722  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
+2020-07-21 14:49:55,852  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: kurtis
+2020-07-21 14:49:56,473  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: kurtis, value that has been set: kurtis
+2020-07-21 14:49:56,474  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //input[@id='gh-btn']
+2020-07-21 14:49:56,516  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //input[@id='gh-btn']
+2020-07-21 14:49:56,517  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (fe7167f0-0e39-4ff9-8c0e-381591856f5c)] -> xpath: //input[@id='gh-btn']]
+2020-07-21 14:49:59,678  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (fe7167f0-0e39-4ff9-8c0e-381591856f5c)] -> xpath: //input[@id='gh-btn']]
+2020-07-21 14:49:59,678  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
+2020-07-21 14:49:59,816  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
+2020-07-21 14:49:59,816  INFO [TestNG] TestListener:65 - From Thread 12: *** Test execution searchForProduct failed...
+2020-07-21 14:49:59,816  INFO [TestNG] TestListener:79 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-21 14:49:59,816  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-21 14:50:00,511  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-21 14:50:00,511  INFO [TestNG] TestListener:97 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot2850566213641950467.png
+2020-07-21 14:50:00,511  INFO [TestNG] TestListener:98 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\searchForProduct2020-07-21T14_49_59_816.png
+2020-07-21 14:50:13,988  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:50:18,167  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:50:18,172  INFO [TestNG] TestListener:41 - From Thread 12: *** Running test method signUp...
+2020-07-21 14:50:18,283  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: register
+2020-07-21 14:50:18,480  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: register
+2020-07-21 14:50:18,481  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (de1b6bfb-ae83-437a-89c7-196b887d025a)] -> link text: register]
+2020-07-21 14:50:26,426  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (de1b6bfb-ae83-437a-89c7-196b887d025a)] -> link text: register]
+2020-07-21 14:50:26,441  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-21 14:50:26,495  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: firstname
+2020-07-21 14:50:26,564  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-21 14:50:26,648  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: firstname
+2020-07-21 14:50:26,711  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: Manjunath
+2020-07-21 14:50:26,980  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: Manjunath, value that has been set: Manjunath
+2020-07-21 14:50:27,983  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: lastname
+2020-07-21 14:50:28,016  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: lastname
+2020-07-21 14:50:28,052  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: KV
+2020-07-21 14:50:28,152  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: KV, value that has been set: KV
+2020-07-21 14:50:29,170  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: email
+2020-07-21 14:50:29,455  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: email
+2020-07-21 14:50:29,502  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: kvm.nath123@gmail.com
+2020-07-21 14:50:29,656  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: kvm.nath123@gmail.com, value that has been set: kvm.nath123@gmail.com
+2020-07-21 14:50:30,671  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: email
+2020-07-21 14:50:30,706  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: email
+2020-07-21 14:50:30,738  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: kvm.nath123@gmail.com, expected to be set to: Test@12345
+2020-07-21 14:50:30,887  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: Test@12345, value that has been set: kvm.nath123@gmail.comTest@12345
+2020-07-21 14:50:31,890  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //button[@id='ppaFormSbtBtn']
+2020-07-21 14:50:31,923  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //button[@id='ppaFormSbtBtn']
+2020-07-21 14:50:31,923  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (de1b6bfb-ae83-437a-89c7-196b887d025a)] -> xpath: //button[@id='ppaFormSbtBtn']]
+2020-07-21 14:50:32,691  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (de1b6bfb-ae83-437a-89c7-196b887d025a)] -> xpath: //button[@id='ppaFormSbtBtn']]
+2020-07-21 14:50:32,691  INFO [TestNG] TestListener:46 - From Thread 12: *** Executed signUp test successfully...
+2020-07-21 14:50:45,171  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-21 14:50:48,959  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-21 14:50:48,964  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-21 14:50:49,222  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-21 14:50:49,309  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-21 14:50:51,351  INFO [TestNG] EventHandler:183 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12688, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 51a2fbda-0c69-495c-b9c2-10a...}
+Session ID: 51a2fbda-0c69-495c-b9c2-10a44476c946
+*** Element info: {Using=id, value=userid}
+2020-07-21 14:50:51,357  INFO [TestNG] TestListener:41 - From Thread 12: *** Running test method openPurchaseHistory...
+2020-07-21 14:50:51,404  INFO [TestNG] TestListener:56 - From Thread 12: *** Test openPurchaseHistory skipped...
+2020-07-21 14:51:01,153  INFO [TestNG] TestListener:35 - *** Test Suite RegressionTests ending ***
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-21 14:51:01,197 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-21 14:51:01,212 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-21 14:51:01,228 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,228 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-21 14:51:01,228 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-21 14:51:01,228 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,243 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-21 14:51:01,259 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-21 14:51:01,275 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-21 14:51:01,275 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,275 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-21 14:51:01,275 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-21 14:51:01,275 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-07-21 14:51:01,290 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,290 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-21 14:51:01,290 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-21 14:51:01,290 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-21 14:51:01,306 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-21 14:51:01,322 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 14:51:01,337 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-21 14:51:01,353 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-21 14:51:01,368 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 14:51:01,368 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-21 14:51:01,368 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-21 14:51:01,368 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

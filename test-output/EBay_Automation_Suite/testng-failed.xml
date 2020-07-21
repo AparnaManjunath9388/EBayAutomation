@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [EBay_Automation_Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.ebay.automation.reporting.TestListener"/>
+  </listeners>
+  <test name="SmokeTests(failed)" parallel="tests">
+    <parameter name="Platform" value="windows"/>
+    <parameter name="Browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ebay.automation.pagetests.HomePageTest">
+        <methods>
+          <include name="beforeMeth"/>
+          <include name="setUp"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
+      <class name="com.ebay.automation.pagetests.LoginPageTest">
+        <methods>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="beforeMeth"/>
+          <include name="beforeMeth"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+  <test name="RegressionTests(failed)" parallel="tests">
+    <parameter name="Platform" value="windows"/>
+    <parameter name="Browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ebay.automation.pagetests.HomePageTest">
+        <methods>
+          <include name="beforeMeth"/>
+          <include name="setUp"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="openPurchaseHistory"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
+      <class name="com.ebay.automation.pagetests.LoginPageTest">
+        <methods>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="beforeMeth"/>
+          <include name="beforeMeth"/>
+          <include name="searchForProduct"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [EBay_Automation_Suite] -->

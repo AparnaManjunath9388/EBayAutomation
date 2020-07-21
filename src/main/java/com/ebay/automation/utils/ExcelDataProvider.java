@@ -18,7 +18,7 @@ public class ExcelDataProvider {
 		DatafilePath = configManager.getDataFilePath();
 	}
 	
-	public Hashtable<String, String> get(String SheetName, String scenarioName) throws Exception{
+	public Hashtable<String, String> get(String SheetName) throws Exception{
 		
 		Hashtable<String, String> DataCollection = new Hashtable<String, String>();
 		try {
@@ -27,28 +27,21 @@ public class ExcelDataProvider {
 			Sheet sheet = WB.getSheet(SheetName);
 			
 			int rowCount = sheet.getPhysicalNumberOfRows();
-			String[] rowsToSearch = {"ALL", scenarioName};
 			
-			for (String RowIdentity : rowsToSearch) {
-				for (int i = 1;i< rowCount;i++) {
-					if (sheet.getRow(i).getCell(0, Row.CREATE_NULL_AS_BLANK).toString().equalsIgnoreCase(RowIdentity)){
-						
-						int colCount = sheet.getRow(i).getPhysicalNumberOfCells();
-						for(int j=1;j<colCount;j++) {
-							String data = sheet.getRow(i).getCell(j, Row.CREATE_NULL_AS_BLANK).toString().replace(".0", "");
-							if (data != "") {
-								DataCollection.put(data.split(";")[0], data.split(";")[1]);
-							} else {
-								break;
-							}
-							
-						}
-					}
+			for (int i = 0; i<rowCount; i+=2) {
+				int colCount = sheet.getRow(i).getPhysicalNumberOfCells();
+				
+				for (int j=0;j<colCount;j++) {
+					String header = sheet.getRow(i).getCell(j, Row.CREATE_NULL_AS_BLANK).toString().replace(".0", "");
+					String data = sheet.getRow(i+1).getCell(j, Row.CREATE_NULL_AS_BLANK).toString().replace(".0", "");
+					DataCollection.put(header, data);
 				}
 			}
 			
 		} catch(Exception e) {
-			throw new Exception("Exception while reading data from excel for scenario " + scenarioName + ": " + e.getMessage());
+			e.printStackTrace();
+			throw new Exception("Exception while reading data from excel sheet " + SheetName + ": " + e.getStackTrace());
+			
 		}
 		return DataCollection;
 	}

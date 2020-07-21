@@ -331,9 +331,9 @@ public class CommonMethods {
 	}
 	
 
-	public Date getTime(long millis) {
+	public static Date getTime() {
 		Calendar calendar = Calendar.getInstance();
-		calendar.setTimeInMillis(millis);
+		calendar.setTimeInMillis(System.currentTimeMillis());
 		return calendar.getTime();
 	}
 	
@@ -647,7 +647,7 @@ public class CommonMethods {
 				@SuppressWarnings("deprecation")
 				String month = Month.of(date.getMonth()+1).toString().toLowerCase();
 				
-				if (date.getMonth()+1 < (getTime(System.currentTimeMillis()).getMonth()+1)) {
+				if (date.getMonth()+1 < (getTime().getMonth()+1)) {
 					String prevMonthBtn = "/table/thead/tr[@class='headrow']/td[2]/div";
 					String LeftBtnProp = ORparser.getObjectProperty(CalBoxObject) + prevMonthBtn;
 					Btn = getElement(LeftBtnProp.split(";")[0], LeftBtnProp.split(";")[1]);
@@ -700,7 +700,7 @@ public class CommonMethods {
 		return DateSet;
 	}
 	
-	public boolean hoverMouseAndClick(String mouseHoverObj, String objToClick) throws Exception {
+	/*public boolean hoverMouseAndClick(String mouseHoverObj, String objToClick) throws Exception {
 		
 		boolean clicked = false;
 		try {
@@ -714,6 +714,26 @@ public class CommonMethods {
 			WebElement ElementToClick = getElement(objToClick);
 			wait.until(ExpectedConditions.elementToBeClickable(ElementToClick));
 			ElementToClick.click();
+			clicked = true;
+			
+		} catch (Exception e) {
+			throw new Exception("Exception from method CommonMethods.hoverMouseAndClick: " + e.getMessage());
+		}
+		
+		return clicked;
+	}*/
+	
+	public boolean hoverMouseAndClick(WebElement mouseHoverObj, WebElement objToClick) throws Exception {
+		
+		boolean clicked = false;
+		try {
+			
+			Actions actions = new Actions(driver);
+			wait.until(ExpectedConditions.elementToBeClickable(mouseHoverObj));
+			actions.moveToElement(mouseHoverObj).perform();
+			
+			wait.until(ExpectedConditions.elementToBeClickable(objToClick));
+			objToClick.click();
 			clicked = true;
 			
 		} catch (Exception e) {

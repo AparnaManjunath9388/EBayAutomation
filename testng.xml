@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EBay_Automation_Suite" parallel = "tests" thread-count = "2">
+
+	<listeners>
+		<listener class-name="com.ebay.automation.reporting.TestListener"/>
+	</listeners>
+  <test name="SmokeTests" preserve-order="true">
+    	<parameter name="Browser" value="firefox"/>
+		<parameter name="Platform" value="windows"/>
+  	<groups>
+  		<run>
+  			<include name="SmokeTest"/>
+  		</run>
+  	</groups>
+
+    <classes>
+      <class name="com.ebay.automation.pagetests.LoginPageTest"/>
+      <class name="com.ebay.automation.pagetests.HomePageTest"/>
+    </classes>
+  </test> <!-- RegressionTests -->
+  <test name="RegressionTests" preserve-order="true">
+    	<parameter name="Browser" value="firefox"/>
+		<parameter name="Platform" value="windows"/>
+  	<groups>
+  		<run>
+  			<include name="RegressionTest"/>
+  		</run>
+  	</groups>
+
+    <classes>
+      <class name="com.ebay.automation.pagetests.LoginPageTest"/>
+      <class name="com.ebay.automation.pagetests.HomePageTest"/>
+    </classes>
+  </test> <!-- RegressionTests -->
+</suite> <!-- EBay_Automation_Suite -->
