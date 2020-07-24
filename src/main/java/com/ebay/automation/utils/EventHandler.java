@@ -178,8 +178,6 @@ public class EventHandler implements WebDriverEventListener {
 
 	@Override
 	public void onException(Throwable arg0, WebDriver arg1) {
-		
-		ExtentTestManager.getTest().log(Status.FAIL, "Test Failed");
 		logger.info("From Thread " + Thread.currentThread().getId() + ": Exception: Cause- " + arg0.getCause() + ", Message- " + arg0.getMessage());
 	}
 }

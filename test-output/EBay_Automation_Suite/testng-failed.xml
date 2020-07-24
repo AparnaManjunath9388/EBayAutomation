@@ -13,27 +13,24 @@
       </run>
     </groups>
     <classes>
-      <class name="com.ebay.automation.pagetests.HomePageTest">
-        <methods>
-          <include name="beforeMeth"/>
-          <include name="setUp"/>
-          <include name="initialSetup"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
       <class name="com.ebay.automation.pagetests.LoginPageTest">
         <methods>
           <include name="initialSetup"/>
           <include name="afterClass"/>
           <include name="initialSetup"/>
           <include name="afterClass"/>
-          <include name="login"/>
-          <include name="beforeMeth"/>
-          <include name="beforeMeth"/>
+          <include name="assertLoginPageTitle"/>
           <include name="setUp"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
+      <class name="com.ebay.automation.pagetests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
     </classes>
   </test> <!-- SmokeTests(failed) -->
   <test name="RegressionTests(failed)" parallel="tests">
@@ -45,15 +42,6 @@
       </run>
     </groups>
     <classes>
-      <class name="com.ebay.automation.pagetests.HomePageTest">
-        <methods>
-          <include name="beforeMeth"/>
-          <include name="setUp"/>
-          <include name="initialSetup"/>
-          <include name="afterClass"/>
-          <include name="openPurchaseHistory"/>
-        </methods>
-      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
       <class name="com.ebay.automation.pagetests.LoginPageTest">
         <methods>
           <include name="initialSetup"/>
@@ -61,13 +49,20 @@
           <include name="initialSetup"/>
           <include name="afterClass"/>
           <include name="login"/>
-          <include name="beforeMeth"/>
-          <include name="beforeMeth"/>
           <include name="searchForProduct"/>
           <include name="setUp"/>
           <include name="setUp"/>
+          <include name="signUp"/>
         </methods>
       </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
+      <class name="com.ebay.automation.pagetests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="initialSetup"/>
+          <include name="afterClass"/>
+          <include name="openPurchaseHistory"/>
+        </methods>
+      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
     </classes>
   </test> <!-- RegressionTests(failed) -->
 </suite> <!-- Failed suite [EBay_Automation_Suite] -->

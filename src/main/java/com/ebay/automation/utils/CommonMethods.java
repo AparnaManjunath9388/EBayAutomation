@@ -45,7 +45,7 @@ public class CommonMethods {
 	}
 
    public WebElement getElement(String objName) throws Exception {
-    	return driver.findElement(ORparser.getBy(objName));
+    	return ((WebDriver) driver).findElement(ORparser.getBy(objName));
     }
     
     public List<WebElement> getElements(String objName) throws Exception {

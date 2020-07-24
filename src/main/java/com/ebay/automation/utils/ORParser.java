@@ -14,7 +14,7 @@ public class ORParser {
 	public ORParser() throws Exception {
 		ConfigFileManager ConfigManager = new ConfigFileManager();
 		ObjectRep = new Properties();
-		ObjectRep.load(new FileInputStream(ConfigManager.getObjectRepPath()));
+		//ObjectRep.load(new FileInputStream(ConfigManager.getObjectRepPath()));
 	}
 	
 	public String getObjectProperty(String ObjName) throws Exception {
