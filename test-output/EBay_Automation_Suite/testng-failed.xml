@@ -4,35 +4,6 @@
   <listeners>
     <listener class-name="com.ebay.automation.reporting.TestListener"/>
   </listeners>
-  <test name="SmokeTests(failed)" parallel="tests">
-    <parameter name="Platform" value="windows"/>
-    <parameter name="Browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="SmokeTest"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.ebay.automation.pagetests.LoginPageTest">
-        <methods>
-          <include name="initialSetup"/>
-          <include name="afterClass"/>
-          <include name="initialSetup"/>
-          <include name="afterClass"/>
-          <include name="assertLoginPageTitle"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
-      <class name="com.ebay.automation.pagetests.HomePageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="initialSetup"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.ebay.automation.pagetests.HomePageTest -->
-    </classes>
-  </test> <!-- SmokeTests(failed) -->
   <test name="RegressionTests(failed)" parallel="tests">
     <parameter name="Platform" value="windows"/>
     <parameter name="Browser" value="firefox"/>

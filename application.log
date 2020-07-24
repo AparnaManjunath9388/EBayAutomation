@@ -1,425 +1,349 @@
-2020-07-24 00:58:09,371  INFO [TestNG] TestListener:35 - *** Test Suite SmokeTests started ***
-2020-07-24 00:58:09,372  INFO [TestNG] TestListener:35 - *** Test Suite RegressionTests started ***
-2020-07-24 00:58:23,037  INFO [TestNG] TestListener:46 - From Thread 12: *** Running test method assertLoginPageTitle...
-2020-07-24 00:58:23,048  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
-2020-07-24 00:58:23,370  INFO [TestNG] TestListener:46 - From Thread 13: *** Running test method login...
-2020-07-24 00:58:23,372  INFO [TestNG] EventHandler:163 - From Thread 13: Trying to navigate to url: https://in.ebay.com/
-2020-07-24 00:58:32,901  INFO [TestNG] EventHandler:85 - From Thread 13: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
-2020-07-24 00:58:33,340  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.linkText: Sign in
-2020-07-24 00:58:33,567  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
-2020-07-24 00:58:33,612  INFO [TestNG] TestListener:51 - From Thread 12: *** Executed assertLoginPageTitle test successfully...
-2020-07-24 00:58:35,163  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.linkText: Sign in
-2020-07-24 00:58:41,169  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.linkText: Sign in
-2020-07-24 00:58:44,561  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.linkText: Sign in
-2020-07-24 00:58:44,562  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> link text: Sign in]
-2020-07-24 00:58:52,275  INFO [TestNG] TestListener:40 - *** Test Suite SmokeTests ending ***
-2020-07-24 00:58:52,329 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:52,331 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
-2020-07-24 00:58:52,334 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
-2020-07-24 00:58:52,335 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
-2020-07-24 00:58:53,410 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,411 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
-2020-07-24 00:58:53,412 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
-2020-07-24 00:58:53,413 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
-2020-07-24 00:58:53,417 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,419 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
-2020-07-24 00:58:53,420 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
-2020-07-24 00:58:53,421 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
-2020-07-24 00:58:53,482 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,483 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
-2020-07-24 00:58:53,484 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
-2020-07-24 00:58:53,485 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
-2020-07-24 00:58:53,500 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,501 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
-2020-07-24 00:58:53,502 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
-2020-07-24 00:58:53,503 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
-2020-07-24 00:58:53,521 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,522 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
-2020-07-24 00:58:53,523 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
-2020-07-24 00:58:53,525 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
-2020-07-24 00:58:53,548 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
-2020-07-24 00:58:53,568 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,569 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
-2020-07-24 00:58:53,571 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
-2020-07-24 00:58:53,571 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
-2020-07-24 00:58:53,578 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,580 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
-2020-07-24 00:58:53,581 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
-2020-07-24 00:58:53,584 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
-2020-07-24 00:58:53,601 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 00:58:53,602 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
-2020-07-24 00:58:53,604 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
-2020-07-24 00:58:53,604 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
-2020-07-24 00:58:56,422  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> link text: Sign in]
-2020-07-24 00:58:56,424  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 00:58:57,070  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: userid
-2020-07-24 00:58:57,398  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 00:58:57,493  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: userid
-2020-07-24 00:58:57,958  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: aparna12.rao@gmail.com
-2020-07-24 00:58:58,860  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: aparna12.rao@gmail.com, value that has been set: aparna12.rao@gmail.com
-2020-07-24 00:58:59,861  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: signin-continue-btn
-2020-07-24 00:58:59,909  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: signin-continue-btn
-2020-07-24 00:58:59,910  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> id: signin-continue-btn]
-2020-07-24 00:59:00,224  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> id: signin-continue-btn]
-2020-07-24 00:59:00,225  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 00:59:00,247  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 00:59:00,826  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 00:59:02,770  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 00:59:03,006  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 00:59:03,180  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 00:59:03,502  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: harekrsna88
-2020-07-24 00:59:03,623  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: harekrsna88, value that has been set: harekrsna88
-2020-07-24 00:59:04,630  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: sgnBt
-2020-07-24 00:59:04,654  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: sgnBt
-2020-07-24 00:59:04,655  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> id: sgnBt]
-2020-07-24 00:59:05,852  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (ca836d6a-3d4e-466e-af75-102b378bf459)] -> id: sgnBt]
-2020-07-24 00:59:05,859  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-ug"]/b[1]
-2020-07-24 00:59:08,008  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-ug"]/b[1]
+2020-07-24 13:59:59,363  INFO [TestNG] TestListener:35 - *** Test Suite SmokeTests started ***
+2020-07-24 13:59:59,364  INFO [TestNG] TestListener:35 - *** Test Suite RegressionTests started ***
+2020-07-24 14:00:16,174  INFO [TestNG] TestListener:46 - From Thread 11: *** Running test method assertLoginPageTitle...
+2020-07-24 14:00:16,274  INFO [TestNG] EventHandler:163 - From Thread 11: Trying to navigate to url: https://in.ebay.com/
+2020-07-24 14:00:16,619  INFO [TestNG] TestListener:46 - From Thread 12: *** Running test method login...
+2020-07-24 14:00:16,620  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-24 14:00:30,084  INFO [TestNG] EventHandler:85 - From Thread 11: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-24 14:00:30,337  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-24 14:00:31,384  INFO [TestNG] TestListener:51 - From Thread 11: *** Executed assertLoginPageTitle test successfully...
+2020-07-24 14:00:32,312  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-24 14:00:37,324  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-24 14:00:38,237  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-24 14:00:38,499  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-24 14:00:38,501  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> link text: Sign in]
+2020-07-24 14:00:50,569  INFO [TestNG] TestListener:40 - *** Test Suite SmokeTests ending ***
+2020-07-24 14:00:50,743 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:50,745 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-24 14:00:50,756 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-24 14:00:50,757 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-24 14:00:51,820 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:51,821 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-24 14:00:51,822 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-24 14:00:51,822 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-24 14:00:51,828 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:51,829 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-24 14:00:51,830 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-24 14:00:51,831 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-24 14:00:51,841 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:51,842 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-24 14:00:51,842 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-24 14:00:51,843 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-24 14:00:51,947 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:51,947 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-24 14:00:51,948 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-24 14:00:51,949 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-24 14:00:52,015 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,017 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-24 14:00:52,018 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-24 14:00:52,019 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-24 14:00:52,096 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,097 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-24 14:00:52,099 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-24 14:00:52,100 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-24 14:00:52,148 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,153 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-24 14:00:52,155 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-24 14:00:52,159 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-24 14:00:52,165 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,166 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-24 14:00:52,167 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-24 14:00:52,168 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-24 14:00:52,175 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,176 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-24 14:00:52,178 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-24 14:00:52,179 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-24 14:00:52,201 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:00:52,202 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-24 14:00:52,203 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-24 14:00:52,204 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-07-24 14:00:52,880  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> link text: Sign in]
+2020-07-24 14:00:52,881  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:00:53,870  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: userid
+2020-07-24 14:00:53,949  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:00:53,970  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: userid
+2020-07-24 14:00:54,022  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: aparna12.rao@gmail.com
+2020-07-24 14:00:55,418  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: aparna12.rao@gmail.com, value that has been set: aparna12.rao@gmail.com
+2020-07-24 14:00:56,419  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: signin-continue-btn
+2020-07-24 14:00:56,432  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: signin-continue-btn
+2020-07-24 14:00:56,433  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> id: signin-continue-btn]
+2020-07-24 14:00:56,688  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> id: signin-continue-btn]
+2020-07-24 14:00:56,690  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: pass
+2020-07-24 14:00:56,728  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: pass
+2020-07-24 14:00:57,279  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: pass
+2020-07-24 14:00:57,297  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: pass
+2020-07-24 14:00:57,372  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: pass
+2020-07-24 14:00:57,387  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: pass
+2020-07-24 14:00:57,405  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: harekrsna88
+2020-07-24 14:00:57,475  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: harekrsna88, value that has been set: harekrsna88
+2020-07-24 14:00:58,477  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: sgnBt
+2020-07-24 14:00:59,734  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.id: sgnBt
+2020-07-24 14:00:59,735  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> id: sgnBt]
+2020-07-24 14:01:01,317  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (8a092713-f03e-4914-b6e6-dc68784e841d)] -> id: sgnBt]
+2020-07-24 14:01:01,354  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //*[@id="gh-ug"]/b[1]
+2020-07-24 14:01:04,458  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-ug"]/b[1]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8108, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ca836d6a-3d4e-466e-af75-102...}
-Session ID: ca836d6a-3d4e-466e-af75-102b378bf459
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13204, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 8a092713-f03e-4914-b6e6-dc6...}
+Session ID: 8a092713-f03e-4914-b6e6-dc68784e841d
 *** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
-2020-07-24 00:59:08,010  INFO [TestNG] TestListener:70 - From Thread 13: *** Test execution login failed...
-2020-07-24 00:59:08,011  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
-2020-07-24 00:59:08,012  INFO [TestNG] EventHandler:133 - From Thread 13: Trying to take screenshot. 
-2020-07-24 00:59:08,373  INFO [TestNG] EventHandler:55 - From Thread 13: Screenshot taken
-2020-07-24 00:59:08,373  INFO [TestNG] TestListener:102 - Screen shot file location - C:\WINDOWS\TEMP\screenshot1091581534478437077.png
-2020-07-24 00:59:08,374  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\login2020-07-24T00_59_08_011.png
-2020-07-24 00:59:21,815  INFO [TestNG] TestListener:46 - From Thread 13: *** Running test method searchForProduct...
-2020-07-24 00:59:21,816  INFO [TestNG] EventHandler:163 - From Thread 13: Trying to navigate to url: https://in.ebay.com/
-2020-07-24 00:59:26,352  INFO [TestNG] EventHandler:85 - From Thread 13: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
-2020-07-24 00:59:26,373  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
-2020-07-24 00:59:26,494  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
-2020-07-24 00:59:26,568  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: kurtis
-2020-07-24 00:59:26,741  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: kurtis, value that has been set: kurtis
-2020-07-24 00:59:26,742  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //input[@id='gh-btn']
-2020-07-24 00:59:26,796  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.xpath: //input[@id='gh-btn']
-2020-07-24 00:59:26,797  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (cdc5d643-ceac-4b02-81c2-bf74ef12fbc2)] -> xpath: //input[@id='gh-btn']]
-2020-07-24 00:59:29,330  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (cdc5d643-ceac-4b02-81c2-bf74ef12fbc2)] -> xpath: //input[@id='gh-btn']]
-2020-07-24 00:59:29,332  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
-2020-07-24 00:59:29,484  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
-2020-07-24 00:59:29,485  INFO [TestNG] TestListener:70 - From Thread 13: *** Test execution searchForProduct failed...
-2020-07-24 00:59:29,486  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
-2020-07-24 00:59:29,487  INFO [TestNG] EventHandler:133 - From Thread 13: Trying to take screenshot. 
-2020-07-24 00:59:30,608  INFO [TestNG] EventHandler:55 - From Thread 13: Screenshot taken
-2020-07-24 00:59:30,610  INFO [TestNG] TestListener:102 - Screen shot file location - C:\WINDOWS\TEMP\screenshot2074494376163359912.png
-2020-07-24 00:59:30,610  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\searchForProduct2020-07-24T00_59_29_486.png
-2020-07-24 00:59:45,229  INFO [TestNG] TestListener:46 - From Thread 13: *** Running test method signUp...
-2020-07-24 00:59:45,230  INFO [TestNG] EventHandler:163 - From Thread 13: Trying to navigate to url: https://in.ebay.com/
-2020-07-24 00:59:47,223  INFO [TestNG] EventHandler:85 - From Thread 13: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
-2020-07-24 00:59:47,225  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.linkText: register
-2020-07-24 00:59:47,490  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.linkText: register
-2020-07-24 00:59:47,492  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (62718f1d-27bb-49e0-a32f-270a4a1f6c36)] -> link text: register]
-2020-07-24 00:59:49,152  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (62718f1d-27bb-49e0-a32f-270a4a1f6c36)] -> link text: register]
-2020-07-24 00:59:49,153  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 00:59:51,384  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
+2020-07-24 14:01:04,474  INFO [TestNG] TestListener:70 - From Thread 12: *** Test execution login failed...
+2020-07-24 14:01:04,475  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-24 14:01:04,477  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-24 14:01:04,965  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-24 14:01:04,965  INFO [TestNG] TestListener:102 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot30580670811993454.png
+2020-07-24 14:01:04,966  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\login2020-07-24T14_01_04_475.png
+2020-07-24 14:01:19,866  INFO [TestNG] TestListener:46 - From Thread 12: *** Running test method searchForProduct...
+2020-07-24 14:01:19,871  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-24 14:01:24,800  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-24 14:01:24,833  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
+2020-07-24 14:01:24,858  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //input[@type='text'][@class='gh-tb ui-autocomplete-input']
+2020-07-24 14:01:24,913  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: kurtis
+2020-07-24 14:01:25,069  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: kurtis, value that has been set: kurtis
+2020-07-24 14:01:25,069  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //input[@id='gh-btn']
+2020-07-24 14:01:25,086  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //input[@id='gh-btn']
+2020-07-24 14:01:25,086  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (208287ac-cda8-4096-b2fc-256b37b2c3a7)] -> xpath: //input[@id='gh-btn']]
+2020-07-24 14:01:30,583  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (208287ac-cda8-4096-b2fc-256b37b2c3a7)] -> xpath: //input[@id='gh-btn']]
+2020-07-24 14:01:30,586  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
+2020-07-24 14:01:30,847  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //ul[@class='srp-results srp-grid clearfix']
+2020-07-24 14:01:30,852  INFO [TestNG] TestListener:70 - From Thread 12: *** Test execution searchForProduct failed...
+2020-07-24 14:01:30,853  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-24 14:01:30,855  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-24 14:01:34,058  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-24 14:01:34,059  INFO [TestNG] TestListener:102 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot2924011512356988561.png
+2020-07-24 14:01:34,060  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\searchForProduct2020-07-24T14_01_30_852.png
+2020-07-24 14:01:51,148  INFO [TestNG] TestListener:46 - From Thread 12: *** Running test method signUp...
+2020-07-24 14:01:51,149  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-24 14:01:55,481  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-24 14:01:55,511  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: register
+2020-07-24 14:01:55,790  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: register
+2020-07-24 14:01:55,791  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (75dbd7ce-2b61-43f2-833a-864264e7628c)] -> link text: register]
+2020-07-24 14:01:56,957  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (75dbd7ce-2b61-43f2-833a-864264e7628c)] -> link text: register]
+2020-07-24 14:01:56,958  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:01:59,191  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8072, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 62718f1d-27bb-49e0-a32f-270...}
-Session ID: 62718f1d-27bb-49e0-a32f-270a4a1f6c36
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
 *** Element info: {Using=name, value=firstname}
-2020-07-24 00:59:51,885  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 00:59:53,902  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
+2020-07-24 14:01:59,692  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:01,753  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8072, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 62718f1d-27bb-49e0-a32f-270...}
-Session ID: 62718f1d-27bb-49e0-a32f-270a4a1f6c36
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
 *** Element info: {Using=name, value=firstname}
-2020-07-24 00:59:54,402  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 00:59:56,437  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
+2020-07-24 14:02:02,253  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:04,294  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8072, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 62718f1d-27bb-49e0-a32f-270...}
-Session ID: 62718f1d-27bb-49e0-a32f-270a4a1f6c36
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
 *** Element info: {Using=name, value=firstname}
-2020-07-24 00:59:56,938  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 00:59:58,966  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
+2020-07-24 14:02:04,795  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:06,853  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8072, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 62718f1d-27bb-49e0-a32f-270...}
-Session ID: 62718f1d-27bb-49e0-a32f-270a4a1f6c36
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
 *** Element info: {Using=name, value=firstname}
-2020-07-24 00:59:59,467  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 01:00:00,952  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.name: firstname
-2020-07-24 01:00:01,075  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: firstname
-2020-07-24 01:00:01,123  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.name: firstname
-2020-07-24 01:00:01,212  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: Sriram
-2020-07-24 01:00:01,387  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: Sriram, value that has been set: Sriram
-2020-07-24 01:00:02,403  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: lastname
-2020-07-24 01:00:02,415  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.name: lastname
-2020-07-24 01:00:02,436  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: Rao
-2020-07-24 01:00:02,509  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: Rao, value that has been set: Rao
-2020-07-24 01:00:03,510  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: email
-2020-07-24 01:00:03,523  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.name: email
-2020-07-24 01:00:03,546  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: srirammurthyrao@gmail.com
-2020-07-24 01:00:03,742  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: srirammurthyrao@gmail.com, value that has been set: srirammurthyrao@gmail.com
-2020-07-24 01:00:04,749  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.name: PASSWORD
-2020-07-24 01:00:04,759  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.name: PASSWORD
-2020-07-24 01:00:04,795  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: Test@12345
-2020-07-24 01:00:04,933  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: Test@12345, value that has been set: Test@12345
-2020-07-24 01:00:05,933  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //button[@id='ppaFormSbtBtn']
-2020-07-24 01:00:05,946  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.xpath: //button[@id='ppaFormSbtBtn']
-2020-07-24 01:00:05,947  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (62718f1d-27bb-49e0-a32f-270a4a1f6c36)] -> xpath: //button[@id='ppaFormSbtBtn']]
-2020-07-24 01:00:08,369  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (62718f1d-27bb-49e0-a32f-270a4a1f6c36)] -> xpath: //button[@id='ppaFormSbtBtn']]
-2020-07-24 01:00:08,371  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-ug"]/b[1]
-2020-07-24 01:00:10,404  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-ug"]/b[1]
+2020-07-24 14:02:07,354  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:09,376  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: *[name='firstname']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 8072, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 62718f1d-27bb-49e0-a32f-270...}
-Session ID: 62718f1d-27bb-49e0-a32f-270a4a1f6c36
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
+*** Element info: {Using=name, value=firstname}
+2020-07-24 14:02:09,876  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:11,031  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: firstname
+2020-07-24 14:02:11,124  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: firstname
+2020-07-24 14:02:11,208  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: firstname
+2020-07-24 14:02:11,273  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: Sriram
+2020-07-24 14:02:11,566  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: Sriram, value that has been set: Sriram
+2020-07-24 14:02:12,567  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: lastname
+2020-07-24 14:02:12,580  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: lastname
+2020-07-24 14:02:12,601  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: Rao
+2020-07-24 14:02:12,693  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: Rao, value that has been set: Rao
+2020-07-24 14:02:13,694  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: email
+2020-07-24 14:02:13,706  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: email
+2020-07-24 14:02:13,730  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: srirammurthyrao@gmail.com
+2020-07-24 14:02:13,935  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: srirammurthyrao@gmail.com, value that has been set: srirammurthyrao@gmail.com
+2020-07-24 14:02:14,937  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.name: PASSWORD
+2020-07-24 14:02:15,048  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.name: PASSWORD
+2020-07-24 14:02:15,129  INFO [TestNG] EventHandler:115 - From Thread 12: Before value: , expected to be set to: Test@12345
+2020-07-24 14:02:15,272  INFO [TestNG] EventHandler:36 - From Thread 12: Intended to set value: Test@12345, value that has been set: Test@12345
+2020-07-24 14:02:16,273  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //button[@id='ppaFormSbtBtn']
+2020-07-24 14:02:16,289  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.xpath: //button[@id='ppaFormSbtBtn']
+2020-07-24 14:02:16,289  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (75dbd7ce-2b61-43f2-833a-864264e7628c)] -> xpath: //button[@id='ppaFormSbtBtn']]
+2020-07-24 14:02:31,110  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (75dbd7ce-2b61-43f2-833a-864264e7628c)] -> xpath: //button[@id='ppaFormSbtBtn']]
+2020-07-24 14:02:31,112  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.xpath: //*[@id="gh-ug"]/b[1]
+2020-07-24 14:02:33,153  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
 *** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
-2020-07-24 01:00:10,405  INFO [TestNG] TestListener:70 - From Thread 13: *** Test execution signUp failed...
-2020-07-24 01:00:10,406  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
-2020-07-24 01:00:10,406  INFO [TestNG] EventHandler:133 - From Thread 13: Trying to take screenshot. 
-2020-07-24 01:00:10,678  INFO [TestNG] EventHandler:55 - From Thread 13: Screenshot taken
-2020-07-24 01:00:10,679  INFO [TestNG] TestListener:102 - Screen shot file location - C:\WINDOWS\TEMP\screenshot9107644390533243349.png
-2020-07-24 01:00:10,679  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\signUp2020-07-24T01_00_10_405.png
-2020-07-24 01:00:25,163  INFO [TestNG] TestListener:46 - From Thread 13: *** Running test method openPurchaseHistory...
-2020-07-24 01:00:25,164  INFO [TestNG] EventHandler:163 - From Thread 13: Trying to navigate to url: https://in.ebay.com/
-2020-07-24 01:00:28,590  INFO [TestNG] EventHandler:85 - From Thread 13: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
-2020-07-24 01:00:28,593  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.linkText: Sign in
-2020-07-24 01:00:28,867  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.linkText: Sign in
-2020-07-24 01:00:29,086  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.linkText: Sign in
-2020-07-24 01:00:29,282  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.linkText: Sign in
-2020-07-24 01:00:29,283  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> link text: Sign in]
-2020-07-24 01:00:31,433  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> link text: Sign in]
-2020-07-24 01:00:31,435  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:33,473  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: #userid
+2020-07-24 14:02:33,156  INFO [TestNG] TestListener:70 - From Thread 12: *** Test execution signUp failed...
+2020-07-24 14:02:33,157  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-24 14:02:33,157  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-24 14:02:33,442  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-24 14:02:33,442  INFO [TestNG] TestListener:102 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot3640938591358521244.png
+2020-07-24 14:02:33,443  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.LoginPageTest\signUp2020-07-24T14_02_33_156.png
+2020-07-24 14:02:45,984  INFO [TestNG] TestListener:46 - From Thread 12: *** Running test method openPurchaseHistory...
+2020-07-24 14:02:45,985  INFO [TestNG] EventHandler:163 - From Thread 12: Trying to navigate to url: https://in.ebay.com/
+2020-07-24 14:02:49,312  INFO [TestNG] EventHandler:85 - From Thread 12: Intended to navigate to url: https://in.ebay.com/, navigated to: https://in.ebay.com/
+2020-07-24 14:02:49,326  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-24 14:02:49,594  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-24 14:02:49,782  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.linkText: Sign in
+2020-07-24 14:02:49,967  INFO [TestNG] EventHandler:48 - From Thread 12: Found the element using By.linkText: Sign in
+2020-07-24 14:02:49,967  INFO [TestNG] EventHandler:121 - From Thread 12: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (b13b51c8-38bc-4f85-bf65-43084edffab3)] -> link text: Sign in]
+2020-07-24 14:02:52,733  INFO [TestNG] EventHandler:42 - From Thread 12: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (b13b51c8-38bc-4f85-bf65-43084edffab3)] -> link text: Sign in]
+2020-07-24 14:02:52,734  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:02:54,790  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
 *** Element info: {Using=id, value=userid}
-2020-07-24 01:00:33,974  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:36,145  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: #userid
+2020-07-24 14:02:55,290  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:02:57,303  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
 *** Element info: {Using=id, value=userid}
-2020-07-24 01:00:36,646  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:38,703  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: #userid
+2020-07-24 14:02:57,804  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:00,007  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
 *** Element info: {Using=id, value=userid}
-2020-07-24 01:00:39,204  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:41,252  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: #userid
+2020-07-24 14:03:00,508  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:02,529  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
 *** Element info: {Using=id, value=userid}
-2020-07-24 01:00:41,755  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:43,779  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: #userid
+2020-07-24 14:03:03,029  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:05,046  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
 *** Element info: {Using=id, value=userid}
-2020-07-24 01:00:44,279  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:45,450  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: userid
-2020-07-24 01:00:45,512  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: userid
-2020-07-24 01:00:45,528  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: userid
-2020-07-24 01:00:45,541  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: aparna12.rao@gmail.com
-2020-07-24 01:00:45,672  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: aparna12.rao@gmail.com, value that has been set: aparna12.rao@gmail.com
-2020-07-24 01:00:46,689  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: signin-continue-btn
-2020-07-24 01:00:46,704  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: signin-continue-btn
-2020-07-24 01:00:46,705  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> id: signin-continue-btn]
-2020-07-24 01:00:47,472  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> id: signin-continue-btn]
-2020-07-24 01:00:47,473  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:47,488  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:48,049  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:48,069  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:48,640  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:48,654  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:49,205  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:49,218  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:49,754  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:49,784  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:50,327  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:50,341  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:50,873  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:50,885  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:51,452  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:51,466  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:52,012  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:52,023  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:52,599  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:52,620  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:53,185  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:53,211  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:53,756  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:53,770  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:54,304  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:54,314  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:54,843  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:54,853  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:55,403  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:55,412  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:55,943  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:55,953  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:56,470  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:56,482  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:57,034  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:57,045  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:57,575  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:57,585  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:58,119  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:58,128  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:58,689  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:58,699  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:59,250  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:59,260  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:00:59,791  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:00:59,804  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:00,334  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:01:00,344  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:00,880  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:01:00,891  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:01,427  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:01:01,441  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:01,972  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:01:01,982  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:02,014  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: pass
-2020-07-24 01:01:02,025  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: pass
-2020-07-24 01:01:02,043  INFO [TestNG] EventHandler:115 - From Thread 13: Before value: , expected to be set to: harekrsna88
-2020-07-24 01:01:02,102  INFO [TestNG] EventHandler:36 - From Thread 13: Intended to set value: harekrsna88, value that has been set: harekrsna88
-2020-07-24 01:01:03,114  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.id: sgnBt
-2020-07-24 01:01:03,145  INFO [TestNG] EventHandler:48 - From Thread 13: Found the element using By.id: sgnBt
-2020-07-24 01:01:03,146  INFO [TestNG] EventHandler:121 - From Thread 13: Trying to click on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> id: sgnBt]
-2020-07-24 01:01:03,960  INFO [TestNG] EventHandler:42 - From Thread 13: Clicked on element [[RemoteWebDriver: firefox on WINDOWS (acb3ee02-68d2-4f93-a2f4-303116a1fe3c)] -> id: sgnBt]
-2020-07-24 01:01:04,078  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-eb-My"]/div/a[1]
-2020-07-24 01:01:06,098  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-eb-My"]/div/a[1]
+2020-07-24 14:03:05,547  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:07,718  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-*** Element info: {Using=xpath, value=//*[@id="gh-eb-My"]/div/a[1]}
-2020-07-24 01:01:06,598  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-eb-My"]/div/a[1]
-2020-07-24 01:01:08,616  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-eb-My"]/div/a[1]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}
+2020-07-24 14:03:08,220  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:10,289  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-*** Element info: {Using=xpath, value=//*[@id="gh-eb-My"]/div/a[1]}
-2020-07-24 01:01:09,125  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-eb-My"]/div/a[1]
-2020-07-24 01:01:11,149  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-eb-My"]/div/a[1]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}
+2020-07-24 14:03:10,789  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:12,802  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-*** Element info: {Using=xpath, value=//*[@id="gh-eb-My"]/div/a[1]}
-2020-07-24 01:01:11,650  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-eb-My"]/div/a[1]
-2020-07-24 01:01:13,664  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Unable to locate element: //*[@id="gh-eb-My"]/div/a[1]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}
+2020-07-24 14:03:12,803  INFO [TestNG] EventHandler:127 - From Thread 12: Trying to find the element using By.id: userid
+2020-07-24 14:03:14,828  INFO [TestNG] EventHandler:181 - From Thread 12: Exception: Cause- null, Message- Unable to locate element: #userid
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-*** Element info: {Using=xpath, value=//*[@id="gh-eb-My"]/div/a[1]}
-2020-07-24 01:01:14,166  INFO [TestNG] EventHandler:127 - From Thread 13: Trying to find the element using By.xpath: //*[@id="gh-eb-My"]/div/a[1]
-2020-07-24 01:01:15,907  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Failed to convert data to an object
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-*** Element info: {Using=xpath, value=//*[@id="gh-eb-My"]/div/a[1]}
-2020-07-24 01:01:15,907  INFO [TestNG] TestListener:70 - From Thread 13: *** Test execution openPurchaseHistory failed...
-2020-07-24 01:01:15,907  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
-2020-07-24 01:01:15,923  INFO [TestNG] EventHandler:133 - From Thread 13: Trying to take screenshot. 
-2020-07-24 01:01:15,974  INFO [TestNG] EventHandler:181 - From Thread 13: Exception: Cause- null, Message- Dismissed user prompt dialog: To display this page, Firefox must send information that will repeat any action (such as a search or order confirmation) that was performed earlier.: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: acb3ee02-68d2-4f93-a2f4-303...}
-Session ID: acb3ee02-68d2-4f93-a2f4-303116a1fe3c
-2020-07-24 01:01:15,974  INFO [TestNG] TestListener:109 - An exception occurred while taking screenshot null
-2020-07-24 01:01:15,974  INFO [TestNG] TestListener:117 - An exception occured while taking screenshot null
-2020-07-24 01:01:23,499  INFO [TestNG] TestListener:40 - *** Test Suite RegressionTests ending ***
-2020-07-24 01:01:23,509 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,510 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
-2020-07-24 01:01:23,511 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
-2020-07-24 01:01:23,511 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
-2020-07-24 01:01:23,525 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,526 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
-2020-07-24 01:01:23,527 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
-2020-07-24 01:01:23,527 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
-2020-07-24 01:01:23,532 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,533 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
-2020-07-24 01:01:23,533 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
-2020-07-24 01:01:23,534 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
-2020-07-24 01:01:23,540 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,541 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
-2020-07-24 01:01:23,542 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
-2020-07-24 01:01:23,542 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
-2020-07-24 01:01:23,550 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,551 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
-2020-07-24 01:01:23,552 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
-2020-07-24 01:01:23,552 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
-2020-07-24 01:01:23,553 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,553 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
-2020-07-24 01:01:23,553 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
-2020-07-24 01:01:23,553 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
-2020-07-24 01:01:23,569 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,584 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
-2020-07-24 01:01:23,586 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
-2020-07-24 01:01:23,586 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
-2020-07-24 01:01:23,587 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,587 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
-2020-07-24 01:01:23,587 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
-2020-07-24 01:01:23,587 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
-2020-07-24 01:01:23,608 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,609 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
-2020-07-24 01:01:23,610 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
-2020-07-24 01:01:23,610 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
-2020-07-24 01:01:23,624 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-07-24 01:01:23,625 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
-2020-07-24 01:01:23,626 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
-2020-07-24 01:01:23,626 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}
+2020-07-24 14:03:14,832  INFO [TestNG] TestListener:70 - From Thread 12: *** Test execution openPurchaseHistory failed...
+2020-07-24 14:03:14,832  INFO [TestNG] TestListener:84 - Screen shots reports path - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots
+2020-07-24 14:03:14,833  INFO [TestNG] EventHandler:133 - From Thread 12: Trying to take screenshot. 
+2020-07-24 14:03:15,007  INFO [TestNG] EventHandler:55 - From Thread 12: Screenshot taken
+2020-07-24 14:03:15,008  INFO [TestNG] TestListener:102 - Screen shot file location - C:\Users\aparn\AppData\Local\Temp\screenshot7822803876401070673.png
+2020-07-24 14:03:15,008  INFO [TestNG] TestListener:103 - Target File location - C:\Users\aparn\eclipse-workspace\EBayAutomation\TestReport\screenshots\com.ebay.automation.pagetests.HomePageTest\openPurchaseHistory2020-07-24T14_03_14_832.png
+2020-07-24 14:03:21,761  INFO [TestNG] TestListener:40 - *** Test Suite RegressionTests ending ***
+2020-07-24 14:03:21,797 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,797 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-07-24 14:03:21,798 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-07-24 14:03:21,799 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-07-24 14:03:21,811 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,811 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-07-24 14:03:21,812 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-07-24 14:03:21,813 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-07-24 14:03:21,819 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,820 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-07-24 14:03:21,821 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-07-24 14:03:21,821 DEBUG [TestNG] cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-07-24 14:03:21,827 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,828 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-07-24 14:03:21,829 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-07-24 14:03:21,830 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-07-24 14:03:21,839 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,840 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-07-24 14:03:21,841 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-07-24 14:03:21,841 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-07-24 14:03:21,848 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,849 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-07-24 14:03:21,850 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-07-24 14:03:21,850 DEBUG [TestNG] cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-07-24 14:03:21,865 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-24 14:03:21,868 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-24 14:03:21,870 DEBUG [TestNG] cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-24 14:03:21,872 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,872 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-07-24 14:03:21,874 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-07-24 14:03:21,874 DEBUG [TestNG] cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-07-24 14:03:21,881 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,882 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-07-24 14:03:21,883 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-07-24 14:03:21,884 DEBUG [TestNG] cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-07-24 14:03:21,891 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,892 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-07-24 14:03:21,895 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-07-24 14:03:21,895 DEBUG [TestNG] cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-07-24 14:03:21,902 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,904 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-07-24 14:03:21,905 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-07-24 14:03:21,906 DEBUG [TestNG] cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-07-24 14:03:21,933 DEBUG [TestNG] cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-24 14:03:21,934 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-07-24 14:03:21,936 DEBUG [TestNG] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-07-24 14:03:21,937 DEBUG [TestNG] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/aparn/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

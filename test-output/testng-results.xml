@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="0" ignored="5" total="10" passed="0">
+<testng-results skipped="0" failed="4" ignored="5" total="10" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="EBay_Automation_Suite" duration-ms="229784" started-at="2020-07-23T12:41:25Z" finished-at="2020-07-23T12:45:14Z">
+  <suite name="EBay_Automation_Suite" duration-ms="202368" started-at="2020-07-24T08:29:59Z" finished-at="2020-07-24T08:33:21Z">
     <groups>
       <group name="SmokeTest">
         <method signature="LoginPageTest.assertLoginPageTitle()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="assertLoginPageTitle" class="com.ebay.automation.pagetests.LoginPageTest"/>
@@ -14,17 +14,17 @@
         <method signature="LoginPageTest.signUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="signUp" class="com.ebay.automation.pagetests.LoginPageTest"/>
       </group> <!-- RegressionTest -->
     </groups>
-    <test name="SmokeTests" duration-ms="90319" started-at="2020-07-23T12:41:25Z" finished-at="2020-07-23T12:42:55Z">
+    <test name="SmokeTests" duration-ms="50743" started-at="2020-07-24T08:29:59Z" finished-at="2020-07-24T08:30:50Z">
       <class name="com.ebay.automation.pagetests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="setUp" is-config="true" duration-ms="909" started-at="2020-07-23T18:11:25Z" finished-at="2020-07-23T18:11:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="setUp" is-config="true" duration-ms="941" started-at="2020-07-24T13:59:59Z" finished-at="2020-07-24T14:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="initialSetup" is-config="true" duration-ms="0" started-at="2020-07-23T18:11:26Z" finished-at="2020-07-23T18:11:26Z">
+        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="initialSetup" is-config="true" duration-ms="15478" started-at="2020-07-24T14:00:00Z" finished-at="2020-07-24T14:00:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4d7c1f96]]>
+                <![CDATA[org.testng.TestRunner@67205a84]]>
               </value>
             </param>
             <param index="1">
@@ -38,140 +38,30 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@7cf47cb4
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="SKIP" signature="assertLoginPageTitle()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="assertLoginPageTitle" duration-ms="370" started-at="2020-07-23T18:12:54Z" finished-at="2020-07-23T18:12:55Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@7cf47cb4
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="assertLoginPageTitle()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="assertLoginPageTitle" duration-ms="15214" started-at="2020-07-24T14:00:16Z" finished-at="2020-07-24T14:00:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertLoginPageTitle -->
-        <test-method status="FAIL" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-07-23T18:12:55Z" finished-at="2020-07-23T18:12:55Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Exception from TestBase.afterClass]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.afterClass
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.afterClass(TestBase.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException
-	at com.ebay.automation.base.TestBase.afterClass(TestBase.java:42)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@527740a2]" name="afterClass" is-config="true" duration-ms="18452" started-at="2020-07-24T14:00:31Z" finished-at="2020-07-24T14:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
     </test> <!-- SmokeTests -->
-    <test name="RegressionTests" duration-ms="229784" started-at="2020-07-23T12:41:25Z" finished-at="2020-07-23T12:45:14Z">
+    <test name="RegressionTests" duration-ms="202368" started-at="2020-07-24T08:29:59Z" finished-at="2020-07-24T08:33:21Z">
       <class name="com.ebay.automation.pagetests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="setUp" is-config="true" duration-ms="917" started-at="2020-07-23T18:11:25Z" finished-at="2020-07-23T18:11:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="setUp" is-config="true" duration-ms="937" started-at="2020-07-24T13:59:59Z" finished-at="2020-07-24T14:00:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="0" started-at="2020-07-23T18:11:26Z" finished-at="2020-07-23T18:11:26Z">
+        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="15923" started-at="2020-07-24T14:00:00Z" finished-at="2020-07-24T14:00:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66dabb42]]>
+                <![CDATA[org.testng.TestRunner@2a17b7b6]]>
               </value>
             </param>
             <param index="1">
@@ -185,63 +75,38 @@ Caused by: java.lang.NullPointerException
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@1c4e3c2
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="login" duration-ms="368" started-at="2020-07-23T18:12:54Z" finished-at="2020-07-23T18:12:55Z">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="login" duration-ms="47846" started-at="2020-07-24T14:00:16Z" finished-at="2020-07-24T14:01:04Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
+              <![CDATA[Exception from LoginPageTest.login: caused by -> null, message -> Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13204, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 8a092713-f03e-4914-b6e6-dc6...}
+Session ID: 8a092713-f03e-4914-b6e6-dc68784e841d
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
+              <![CDATA[java.lang.AssertionError: Exception from LoginPageTest.login: caused by -> null, message -> Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13204, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 8a092713-f03e-4914-b6e6-dc6...}
+Session ID: 8a092713-f03e-4914-b6e6-dc68784e841d
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
 	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
+	at com.ebay.automation.pagetests.LoginPageTest.login(LoginPageTest.java:108)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -256,61 +121,32 @@ Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [L
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@1c4e3c2
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
+Caused by: java.lang.Exception: Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 13204, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 8a092713-f03e-4914-b6e6-dc6...}
+Session ID: 8a092713-f03e-4914-b6e6-dc68784e841d
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
+	at com.ebay.automation.pages.HomePage.verifyLoggedInUser(HomePage.java:36)
+	at com.ebay.automation.pagetests.LoginPageTest.login(LoginPageTest.java:105)
+	... 20 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-07-23T18:12:55Z" finished-at="2020-07-23T18:12:55Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Exception from TestBase.afterClass]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.afterClass
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.afterClass(TestBase.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.NullPointerException
-	at com.ebay.automation.base.TestBase.afterClass(TestBase.java:42)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="7432" started-at="2020-07-24T14:01:05Z" finished-at="2020-07-24T14:01:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="59093" started-at="2020-07-23T18:12:55Z" finished-at="2020-07-23T18:13:54Z">
+        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="7118" started-at="2020-07-24T14:01:12Z" finished-at="2020-07-24T14:01:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66dabb42]]>
+                <![CDATA[org.testng.TestRunner@2a17b7b6]]>
               </value>
             </param>
             <param index="1">
@@ -327,23 +163,23 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="SKIP" signature="searchForProduct()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="searchForProduct" duration-ms="2" started-at="2020-07-23T18:13:54Z" finished-at="2020-07-23T18:13:54Z">
+        <test-method status="FAIL" signature="searchForProduct()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="searchForProduct" duration-ms="10985" started-at="2020-07-24T14:01:19Z" finished-at="2020-07-24T14:01:30Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
+              <![CDATA[Search results count not as expected expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
-	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
+              <![CDATA[java.lang.AssertionError: Search results count not as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ebay.automation.pagetests.LoginPageTest.searchForProduct(LoginPageTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -358,25 +194,21 @@ Caused by: java.lang.NullPointerException
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@1c4e3c2
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForProduct -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="11636" started-at="2020-07-23T18:13:54Z" finished-at="2020-07-23T18:14:06Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="10476" started-at="2020-07-24T14:01:34Z" finished-at="2020-07-24T14:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="29276" started-at="2020-07-23T18:14:06Z" finished-at="2020-07-23T18:14:35Z">
+        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="initialSetup" is-config="true" duration-ms="6583" started-at="2020-07-24T14:01:44Z" finished-at="2020-07-24T14:01:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66dabb42]]>
+                <![CDATA[org.testng.TestRunner@2a17b7b6]]>
               </value>
             </param>
             <param index="1">
@@ -393,23 +225,35 @@ Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [L
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="SKIP" signature="signUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="signUp" duration-ms="3" started-at="2020-07-23T18:14:35Z" finished-at="2020-07-23T18:14:35Z">
+        <test-method status="FAIL" signature="signUp()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="signUp" duration-ms="42007" started-at="2020-07-24T14:01:51Z" finished-at="2020-07-24T14:02:33Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
+              <![CDATA[Exception from LoginPageTest.signUp: caused by -> null, message -> Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
+              <![CDATA[java.lang.AssertionError: Exception from LoginPageTest.signUp: caused by -> null, message -> Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
 	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
+	at com.ebay.automation.pagetests.LoginPageTest.signUp(LoginPageTest.java:89)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -424,31 +268,38 @@ Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [L
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@1c4e3c2
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
+Caused by: java.lang.Exception: Exception occured in HomePage.verifyLoggedInUser: cause -> null, message -> Unable to locate element: //*[@id="gh-ug"]/b[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5600, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 75dbd7ce-2b61-43f2-833a-864...}
+Session ID: 75dbd7ce-2b61-43f2-833a-864264e7628c
+*** Element info: {Using=xpath, value=//*[@id="gh-ug"]/b[1]}
+	at com.ebay.automation.pages.HomePage.verifyLoggedInUser(HomePage.java:36)
+	at com.ebay.automation.pagetests.LoginPageTest.signUp(LoginPageTest.java:86)
+	... 20 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="7162" started-at="2020-07-23T18:14:35Z" finished-at="2020-07-23T18:14:42Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.LoginPageTest@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="5642" started-at="2020-07-24T14:02:33Z" finished-at="2020-07-24T14:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.ebay.automation.pagetests.LoginPageTest -->
       <class name="com.ebay.automation.pagetests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="97" started-at="2020-07-23T18:14:42Z" finished-at="2020-07-23T18:14:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="setUp" is-config="true" duration-ms="139" started-at="2020-07-24T14:02:39Z" finished-at="2020-07-24T14:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="initialSetup" is-config="true" duration-ms="27716" started-at="2020-07-23T18:14:42Z" finished-at="2020-07-23T18:15:10Z">
+        <test-method status="PASS" signature="initialSetup(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="initialSetup" is-config="true" duration-ms="6752" started-at="2020-07-24T14:02:39Z" finished-at="2020-07-24T14:02:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@66dabb42]]>
+                <![CDATA[org.testng.TestRunner@2a17b7b6]]>
               </value>
             </param>
             <param index="1">
@@ -465,23 +316,35 @@ Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [L
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="SKIP" signature="openPurchaseHistory()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="openPurchaseHistory" duration-ms="1" started-at="2020-07-23T18:15:10Z" description="Opens Purchase History of the logged in user" finished-at="2020-07-23T18:15:10Z">
+        <test-method status="FAIL" signature="openPurchaseHistory()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="openPurchaseHistory" duration-ms="28847" started-at="2020-07-24T14:02:45Z" description="Opens Purchase History of the logged in user" finished-at="2020-07-24T14:03:14Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Exception from TestBase.initialSetup]]>
+              <![CDATA[Exception from HomePageTest.openPurchaseHistory: caused by -> null, message -> Exception occured in LoginPage.login: cause -> org.openqa.selenium.NoSuchElementException: Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}, message -> Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: userid' (tried for 20 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Exception from TestBase.initialSetup
+              <![CDATA[java.lang.AssertionError: Exception from HomePageTest.openPurchaseHistory: caused by -> null, message -> Exception occured in LoginPage.login: cause -> org.openqa.selenium.NoSuchElementException: Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}, message -> Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: userid' (tried for 20 second(s) with 500 milliseconds interval)
 	at org.testng.Assert.fail(Assert.java:83)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:32)
+	at com.ebay.automation.pagetests.HomePageTest.openPurchaseHistory(HomePageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
@@ -496,17 +359,24 @@ Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [L
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.Exception: Exception from WebDriverFactory.CreateDriver: [Ljava.lang.StackTraceElement;@1c4e3c2
-	at com.ebay.automation.utils.WebDriverFactory.createDriver(WebDriverFactory.java:88)
-	at com.ebay.automation.base.TestBase.initialSetup(TestBase.java:28)
-	... 22 more
+Caused by: java.lang.Exception: Exception occured in LoginPage.login: cause -> org.openqa.selenium.NoSuchElementException: Unable to locate element: #userid
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-JOPOHLMU', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 11232, moz:profile: C:\Users\aparn\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: b13b51c8-38bc-4f85-bf65-430...}
+Session ID: b13b51c8-38bc-4f85-bf65-43084edffab3
+*** Element info: {Using=id, value=userid}, message -> Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: userid' (tried for 20 second(s) with 500 milliseconds interval)
+	at com.ebay.automation.pages.LoginPage.login(LoginPage.java:91)
+	at com.ebay.automation.pagetests.HomePageTest.openPurchaseHistory(HomePageTest.java:45)
+	... 20 more
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPurchaseHistory -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="afterClass" is-config="true" duration-ms="4463" started-at="2020-07-23T18:15:10Z" finished-at="2020-07-23T18:15:14Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ebay.automation.pagetests.HomePageTest@6325a3ee]" name="afterClass" is-config="true" duration-ms="6714" started-at="2020-07-24T14:03:15Z" finished-at="2020-07-24T14:03:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

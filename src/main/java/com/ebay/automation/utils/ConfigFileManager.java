@@ -145,4 +145,12 @@ public class ConfigFileManager {
 			throw new Exception("Exception while reading OfficeHubURL from Config file: " + e.getStackTrace());
 		}
 	}
+	
+	public String getJenkinsHubURL() throws Exception {
+		try {
+			return prop.getProperty("JenkinsHubURL");
+		} catch(Exception e) {
+			throw new Exception("Exception while reading JenkinsHubURL from Config file: " + e.getStackTrace());
+		}		
+	}
 }

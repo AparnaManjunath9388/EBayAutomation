@@ -22,7 +22,9 @@ public class WebDriverFactory {
 	public WebDriver createDriver(String Browser, String Platform) throws Exception {
     	try {
         	ConfigFileManager ConfigReader = new ConfigFileManager();
-        	String url = ConfigReader.getOfficeHubURL();
+        	//String url = ConfigReader.getOfficeHubURL();
+        	String url = ConfigReader.getJenkinsHubURL();
+        	
     		
     		Platform desiredPlatform = getPlatform(Platform);
     		DesiredCapabilities cap = new DesiredCapabilities();
@@ -31,7 +33,7 @@ public class WebDriverFactory {
     		cap.setVersion("ANY");
     		//cap.setVersion(Version);
     		
-    		try {
+    		//try {
     		
 	    		if (Browser.toLowerCase().equals("chrome")){
 	    			
@@ -46,9 +48,9 @@ public class WebDriverFactory {
 	    			driver = new RemoteWebDriver(new URL(url), options);
 	    		}
 	    		else {
-	    			throw new Exception("Browser not identified");
+	    			throw new Exception("Specified Browser '" + Browser + "' not identified");
 	    		}
-    		} catch(Exception e) {
+    		/*} catch(Exception e) {
     			try {
     				url = ConfigReader.getHomeHubURL();
     	    		if (Browser.toLowerCase().equals("chrome")){
@@ -70,7 +72,7 @@ public class WebDriverFactory {
     				throw ex;
     			}
     			
-    		}
+    		}*/
     		
     			
     		EventFiringWebDriver eventDriver = new EventFiringWebDriver(driver);
