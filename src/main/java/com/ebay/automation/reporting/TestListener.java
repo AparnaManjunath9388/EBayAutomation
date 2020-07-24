@@ -21,20 +21,25 @@ import com.ebay.automation.utils.CommonMethods;
 
 public class TestListener implements ITestListener {
 
-	Logger logger;
+	private Logger logger;
+	private ExtentTestManager ExtentTestManager;
 	
 	public TestListener() {
 		logger = Logger.getLogger(TestListener.class);
+		ExtentTestManager = new ExtentTestManager();
 	}
 	
 	public void onStart(ITestContext context) {
-		logger.info("*** Test Suite " + context.getName() + " started ***");
+		
+		String suiteName = context.getName();
+		logger.info("*** Test Suite " + suiteName + " started ***");
+		ExtentTestManager.createReport(suiteName);
 	}
 
 	public void onFinish(ITestContext context) {
 		logger.info(("*** Test Suite " + context.getName() + " ending ***"));
 		ExtentTestManager.endTest();
-		ExtentManager.getInstance().flush();
+		//ExtentManager.getInstance().flush();
 	}
 
 	public void onTestStart(ITestResult result) {
@@ -111,6 +116,11 @@ public class TestListener implements ITestListener {
 		} catch (IOException e) {
 			logger.info("An exception occured while taking screenshot " + e.getCause());
 		}
-		ExtentTestManager.getTest().log(Status.FAIL, "Test Failed");
+		
+		String message = result.getThrowable().getMessage();
+		
+		if (message.isEmpty())
+			message = "Test Failed";
+		ExtentTestManager.getTest().log(Status.FAIL, message);
 	}
 }

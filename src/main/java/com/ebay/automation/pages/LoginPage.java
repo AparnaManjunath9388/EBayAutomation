@@ -49,7 +49,7 @@ public class LoginPage extends PageBase {
 
 	}
 	
-	public boolean registerNewUser(String FirstName, String LastName, String EmailId, String Password) throws Exception {
+	public HomePage registerNewUser(String FirstName, String LastName, String EmailId, String Password) throws Exception {
 		
 		try {
 				LoginPageObjects.RegisterNewUser.getRegisterNewUser(driver).link_register.click();
@@ -61,10 +61,10 @@ public class LoginPage extends PageBase {
 				Thread.sleep(1000);
 				LoginPageObjects.RegisterNewUser.getRegisterNewUser(driver).txt_email.sendKeys(EmailId);
 				Thread.sleep(1000);
-				LoginPageObjects.RegisterNewUser.getRegisterNewUser(driver).txt_email.sendKeys(Password);
+				LoginPageObjects.RegisterNewUser.getRegisterNewUser(driver).txt_password.sendKeys(Password);
 				Thread.sleep(1000);
 				LoginPageObjects.RegisterNewUser.getRegisterNewUser(driver).btn_createNewAcct.click();
-				return true;
+				return new HomePage(driver);
 		} catch(Exception e) {
 			throw new Exception("Exception occured in LoginPage.registerNewUser: cause -> " + e.getCause() + ", message -> " + e.getMessage());
 		}
@@ -76,6 +76,8 @@ public class LoginPage extends PageBase {
 		try {
 			
 			wait.until(ExpectedConditions.visibilityOf(LoginPageObjects.Login.getLogin(driver).lnk_signIn));
+			LoginPageObjects.Login.getLogin(driver).lnk_signIn.click();
+			wait.until(ExpectedConditions.visibilityOf(LoginPageObjects.Login.getLogin(driver).txt_emailId));
 			LoginPageObjects.Login.getLogin(driver).txt_emailId.sendKeys(Username);
 			Thread.sleep(1000);
 			LoginPageObjects.Login.getLogin(driver).btn_continue.click();

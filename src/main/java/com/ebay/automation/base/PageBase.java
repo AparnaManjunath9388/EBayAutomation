@@ -15,7 +15,7 @@ public class PageBase {
 
     public PageBase(WebDriver driver) throws Exception {
         this.driver = driver;
-        wait = new WebDriverWait(driver, Constants.EXPLICITWAIT_TIMEOUT);
+        wait = new WebDriverWait((WebDriver) driver, Constants.EXPLICITWAIT_TIMEOUT);
         CommonMethods = new CommonMethods(driver);
         ORparser = new ORParser();
     }

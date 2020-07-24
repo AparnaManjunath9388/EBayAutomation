@@ -9,21 +9,22 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
 	
-	    private static ExtentReports extent;
-	    private static String reportFileName = "Test-Automation-Report"+ "_" + LocalDateTime.now().toString().replace(":", "_").replace(".", "_") + ".html";
-	    private static String fileSeperator = System.getProperty("file.separator");
-	    private static String reportFilepath = System.getProperty("user.dir") +fileSeperator+ "TestReport";
-	    private static String reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
-	  
+	    private String reportFileLocation = "";
+	    
 	 
-	    public static ExtentReports getInstance() {
-	        if (extent == null)
-	            createInstance();
+	    /*public ExtentReports getInstance(String suiteName) {
+	        createInstance(suiteName);
 	        return extent;
-	    }
+	    }*/
 	 
 	    //Create an extent report instance
-	    public static ExtentReports createInstance() {
+	    public ExtentReports getInstance(String suiteName) {
+	    	
+	    	ExtentReports extent;
+		    String reportFileName = "Test-Automation-Report"+ "_" + suiteName + "_" + LocalDateTime.now().toString().replace(":", "_").replace(".", "_") + ".html";
+		    String fileSeperator = System.getProperty("file.separator");
+		    String reportFilepath = System.getProperty("user.dir") +fileSeperator+ "TestReport";
+		    reportFileLocation =  reportFilepath +fileSeperator+ reportFileName;
 	        String fileName = getReportPath(reportFilepath);
 	       
 	        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
@@ -43,7 +44,7 @@ public class ExtentManager {
 	    }
 	     
 	    //Create the report path
-	    private static String getReportPath (String path) {
+	    private String getReportPath (String path) {
 	    	File testDirectory = new File(path);
 	        if (!testDirectory.exists()) {
 	        	if (testDirectory.mkdir()) {

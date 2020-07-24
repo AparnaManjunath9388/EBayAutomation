@@ -30,24 +30,23 @@ public class LoginPageTest extends TestBase {
 				this.TestParams.putAll(params);
 			}
     	} catch(Exception e) {
+    		Assert.fail("Exception from LoginPageTest.setUp: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
     		throw new Exception("Exception from LoginPageTest.setUp: " + e.getMessage());
     	}
     	
     }
-    
-    @BeforeMethod(alwaysRun=true)
-    public void beforeMeth() throws Exception {
-    	LoginPage = openSite();
-    }
-
 	
 	@Test(groups = {"SmokeTest"})
 	public void assertLoginPageTitle() throws Exception {
 		
 		try {
+			
+			LoginPage = openSite();
 			String expected = TestParams.get("ExpectedPageTitle");
 			Assert.assertTrue(LoginPage.getPageTitle().equalsIgnoreCase(expected), "Page title not as expected");
 		} catch(Exception e) {
+			
+			Assert.fail("Exception from LoginPageTest.assertLoginPageTitle: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
 			throw new Exception("Exception from LoginPageTest.assertLoginPageTitle: " + e.getMessage());
 		}
 		
@@ -57,12 +56,16 @@ public class LoginPageTest extends TestBase {
 	public void searchForProduct() throws Exception {
 		
 		try {
+			
 			String ProductToSearch = TestParams.get("ProductToSearch");
 			String MinimumExpectedCount = TestParams.get("ExpectedResultsCount");
 
+			LoginPage = openSite();
 			LoginPage.searchProduct(ProductToSearch);
 			Assert.assertTrue(LoginPage.verifySearchResults(MinimumExpectedCount), "Search results count not as expected");		
 		} catch(Exception e) {
+			
+			Assert.fail("Exception from LoginPageTest.searchForProduct: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
 			throw new Exception("Exception from LoginPageTest.searchForProduct: " + e.getMessage());
 		}
 
@@ -77,8 +80,13 @@ public class LoginPageTest extends TestBase {
 			String RegisterEmailId = TestParams.get("RegisterEmailId");
 			String RegisterPwd = TestParams.get("RegisterPassword");
 
-			Assert.assertTrue(LoginPage.registerNewUser(FirstName, LastName, RegisterEmailId, RegisterPwd), "New account registration failed");
+			LoginPage = openSite();
+			
+			HomePage HomePage = LoginPage.registerNewUser(FirstName, LastName, RegisterEmailId, RegisterPwd);
+			Assert.assertTrue(HomePage.verifyLoggedInUser(FirstName), "New account registration failed");
 		} catch(Exception e) {
+			
+			Assert.fail("Exception from LoginPageTest.signUp: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
 			throw new Exception("Exception from LoginPageTest.signUp: " + e.getMessage());
 		}
 		
@@ -92,9 +100,12 @@ public class LoginPageTest extends TestBase {
 			String Password = TestParams.get("Password");
 			String expectedUsername = TestParams.get("ExpectedUsername");
 
+			LoginPage = openSite();
 			HomePage HomePage = LoginPage.login(EmailId, Password);
 			Assert.assertTrue(HomePage.verifyLoggedInUser(expectedUsername), "Username not as expected");
 		} catch(Exception e) {
+			
+			Assert.fail("Exception from LoginPageTest.login: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
 			throw new Exception("Exception from LoginPageTest.login: " + e.getMessage());
 		}
 		

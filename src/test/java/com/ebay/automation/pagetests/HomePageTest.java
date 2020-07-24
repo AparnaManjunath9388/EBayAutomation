@@ -31,7 +31,8 @@ public class HomePageTest extends TestBase {
 				this.TestParams.putAll(params);
 			}
     	} catch(Exception e) {
-    		throw new Exception("Exception from HomePageTest.setUp: " + e.getMessage());
+    		Assert.fail("Exception from HomePageTest.setUp: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
+    		throw new Exception("Exception from HomePageTest.setUp" + e.getMessage());
     	}
     	
     }
@@ -44,6 +45,8 @@ public class HomePageTest extends TestBase {
     		HomePage = LoginPage.login(TestParams.get("EmailId"), TestParams.get("Password"));
     		Assert.assertTrue(HomePage.openPurchaseHistory(), "Unable to open purchase History");
     	} catch(Exception e) {
+    		
+    		Assert.fail("Exception from HomePageTest.openPurchaseHistory: caused by -> " + e.getCause() + ", message -> " + e.getMessage(), e);
     		throw new Exception("Exception from HomePageTest.openPurchaseHistory: " + e.getMessage());
     	}
     }
